@@ -44,5 +44,5 @@ def create_qrcode_with_icon(link, file_name="qrcode.png", icon_path="icone.png",
     except Exception as e:
         print(f"Erro ao gerar QR Code: {e}")
 
-link = 'https://forms.gle/333vZKcQFjDKqNu79'
-create_qrcode_with_icon(link, "qr_code.png", "formulario.jfif", 0.3)
+link = 'https://www.instagram.com/imc.jovem/'
+create_qrcode_with_icon(link, "qr_code_insta_imc_jovem.png", "instagram.png", 0.4)
